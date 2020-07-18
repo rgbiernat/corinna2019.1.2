@@ -56,6 +56,7 @@ DEFAULT_GLUON_RELEASE := corinna-1.07
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
+GLUON_DEPRECATED ?= full
 
 # Region code required for some images; supported values: us eu
 GLUON_REGION ?= eu
