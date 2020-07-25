@@ -42,7 +42,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := corinna-1.07
+DEFAULT_GLUON_RELEASE := corinna-1.08
 
 
 ##	GLUON_RELEASE
@@ -56,7 +56,7 @@ DEFAULT_GLUON_RELEASE := corinna-1.07
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
-GLUON_DEPRECATED ?= full
+GLUON_DEPRECATED ?= upgrade
 
 # Region code required for some images; supported values: us eu
 GLUON_REGION ?= eu
